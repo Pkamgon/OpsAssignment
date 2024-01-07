@@ -23,7 +23,7 @@ namespace OpsAssignment
 
             Console.WriteLine($"Are employee1 and employee2 equal? {areEqual1}"); //should be false
             Console.WriteLine($"Are employee1 and employee3 equal? {areEqual2}"); // should be true
-        
+            Console.ReadLine();
         }
 
 
