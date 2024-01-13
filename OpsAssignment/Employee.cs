@@ -23,9 +23,9 @@ namespace OpsAssignment
         }
 
             //Overload the "==" operator to compare Employees based on Id
-
             public static bool operator ==(Employee employee1, Employee employee2)
-        {
+            
+            {
             if (ReferenceEquals(employee1, null) && ReferenceEquals(employee2, null))
             {
                 return true;
@@ -59,10 +59,9 @@ namespace OpsAssignment
             return base.GetHashCode();
 
         }
-     
-     }
-   
-    
+
+    }
+  
 }
 
 
